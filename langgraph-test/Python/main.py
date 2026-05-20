@@ -34,9 +34,9 @@ if __name__ == "__main__":
 
     for question in test_questions:
         print("\n" + "─" * 60)
-        print(f"❓ Question: {question}")
+        print(f" Question: {question}")
         result = app.invoke({"question": question})
-        print(f"\n💬 Answer: {result['generation']}")
+        print(f"\n Answer: {result['generation']}")
 
     print("\n" + "=" * 60)
     print("Done! Add your own documents to SAMPLE_DOCS to customise the knowledge base.")
