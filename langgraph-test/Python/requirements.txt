@@ -1,0 +1,10 @@
+langgraph
+langchain-core
+langchain-community
+langchain-huggingface
+ddgs
+langchain-google-genai
+chromadb
+transformers
+torch
+python-dotenv
