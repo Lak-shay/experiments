@@ -74,7 +74,7 @@ Answer:"""
         print("\n [Node 3] RUNNING DuckDuckGo web search fallback...")
         results = self.web_search.run(state["question"])
         new_doc = Document(page_content=results, metadata={"source": "duckduckgo"})
-        print(f"   Web results snippet: {results[:120]}...")
+        print(f"  Web results snippet: {results[:120]}...")
         return {"documents": [new_doc]}
 
     def generate_node(self, state: AgenticRAGState) -> dict:
